@@ -12,7 +12,7 @@ window.onload = (event) => {
   });
 };
 
-const handleNoteSubmit = () => {
+const handleNoteSubmit = () => { 
   // 1. Capture the form data
   const noteTitle = document.querySelector('#noteTitle');
   const noteText = document.querySelector('#noteText');
